@@ -14,8 +14,8 @@ public class ContaTerminal {
         System.out.println("Informe o seu nome completo: ");
         String nome = sc.nextLine(); 
 
-        System.out.println("Por favor, informe o seu saldo (use vírgula para centavos): ");
-        float saldo = sc.nextFloat();
+        System.out.println("Por favor, informe o seu saldo inicial (use vírgula para centavos): ");
+        double saldo = sc.nextDouble();
 
         System.out.println("Olá " + nome + ", obrigado por criar uma conta em nosso banco, sua agência é " + agencia
                             + ", conta " + conta + ", e o seu saldo " + saldo +
